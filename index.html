@@ -1,0 +1,64 @@
+<body>
+
+  <div class="col-6" style="text-align: center;">
+    <input class="input" id="country" type="text" placeholder="Enter country"><br>
+    <button class="button" onclick="myFunction()">Try it</button>
+    <p type="text" class="output" id="casesid"> </p><br>
+
+  </div>
+</body>
+<style>
+  .col-6 {width: 50%;}
+
+  body{
+    width: 100%;
+    background-image: url('background1.jpg');
+    background-size: 100% 100%;
+  }
+  
+  .button {
+    
+    background-color: #4caf91;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px 32px;
+    top: 60%;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .input {
+    
+    margin: 0;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px 32px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    size: 10;
+  }
+
+  .output {
+    color: #4caf91;
+    margin: 0;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    padding: 5px 7px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20;
+    background-color: white;
+    
+    
+  }
+</style>
+
+
+
+<script src=getcases.js></script>
